@@ -1,0 +1,24 @@
+body{
+    /* background-image: url(../arquivos_de_exemplo/Bolo_Redimensionado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: #1F2322;
+}
+
+h1{
+    color: #ffffff;
+    background-color: #465156;
+}
+
+p{
+    color: #ffffff;
+}
+
+h2{
+    color: #ffffff;
+}
+
+h4{
+    color: #ffffff;
+}

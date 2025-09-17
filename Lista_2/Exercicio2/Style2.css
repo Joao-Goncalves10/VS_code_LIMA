@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(227, 255, 255);
+}
+h1{
+    background-image: url(../Exercicio2/pexels-ellis-1389429.jpg);
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    color:#ff6e39
+}
+
+img{
+    width: 250px;
+}
+
+h3{
+    color: #d64c1a
+}
+
+strong{
+    color: #01917b
+}
+
+em{
+    color: #01917b
+}
