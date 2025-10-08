@@ -1,0 +1,25 @@
+table{
+    border: 2px, solid #45009e;
+    background-color: #45009e;
+    width: 200px;
+    height: 50px;
+    border-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 260px;;
+}
+
+td{
+    padding: 10px;
+
+    border-spacing: 1px;
+    border: 1px, solid #180038;
+    background-color: #f3eaff;
+    text-align: left;
+}
+
+th{
+    background-color: #d1b0fd;
+    border: 1px, solid #160034;
+    padding: 5px;
+}
