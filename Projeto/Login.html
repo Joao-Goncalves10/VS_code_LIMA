@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Projeto/src/style/Index.css">
+    <title> Eletrodex </title>
+</head>
+<body>
+    <header>
+        <img id="Logo" src="../Projeto/src/imagens/Logo_eletrodex.png" alt="Logo do Site" width="100">
+    </header>
+    <main> 
+        <article>
+            <div class="Titulo">
+                <h1> Eletrodex </h1>
+                <p> <strong> Seu site favorito de eletrodomésticos! </strong> </p>
+            </div>
+
+            <section>
+                <article>
+                    <form id="Entrar" action="../Projeto/Pagina_Inicial.html">
+                        <fieldset>
+                            <h3 class="Central"> ENTRAR NA SUA CONTA </h3>
+
+                            <label for="email"> Email: </label>
+                            <input type="email" id="dados" nome="email" required placeholder="Digite aqui">
+
+                            <br> <br>
+
+                            <label for="senha"> Senha: </label>
+                            <input type="password" id="dados" nome="senha" minlength="8" required placeholder="Digite aqui">
+
+                            <br> <br>
+
+                            <button type="submit"> Entrar </button>
+                        </fieldset>
+                    </form>
+                </article>
+                
+                <article>
+                    <form class="Central" action="Cadastro.html">
+                        <p> Ainda não é um cliente? <button type="submit"> Cadastre-se </button> </p>
+                    </form>
+                </article>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
