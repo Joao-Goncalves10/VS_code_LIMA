@@ -1,0 +1,5 @@
+São complementares.
+
+Flexbox: controla o layout em uma linha OU uma coluna por vez, sendo perfeito para componentes, menus de navegação, alinhar itens dentro de um card, etc.
+
+Grid: Controla linhas E colunas simultaneamente, sendo perfeito para o layout principal da página (Cabeçalho, Menu, Conteúdo, Rodapé, etc.)
