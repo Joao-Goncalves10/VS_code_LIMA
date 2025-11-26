@@ -1,0 +1,69 @@
+/* Sempre usar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 1. Cor de fundo e remove os marcadores */
+nav > ul {
+    list-style: none;
+    background-color: #200058;
+}
+
+
+/* 2. Seleciona os itens da lista dentro da NAV */
+nav li {
+    display: inline-block;
+}
+
+
+/* 3. Seleciona os links dentro da lista NAV */
+nav li a {
+    display: block;
+    color: #ebcfff;
+    text-decoration: none;
+    padding: 1.2rem;
+}
+
+
+/* 4. Esconde o submenu por padrão */
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #491a9a;
+}
+
+
+/* 5. Interatividade para mudar a cor */
+nav li a:hover {
+    background-color: #673faa;
+    /* border: 1px solid black;  PARA NÃO VAZAR*/
+}
+
+
+/* 6. Mostra o submenu quando o <li> pai está em :hover */
+nav ul li:hover > ul {
+    display: block;
+}
+
+
+/* 7. Estiliza os itens do submenu para ficarem verticais */
+nav ul ul li {
+    display: block;
+    width: 180px; /* Largura para o dropdown */
+}
+
+
+/* 8. Mudar a cor da fonte do submenu */
+nav ul ul li a {
+    color: #ebcfff;
+}
+
+
+/* 9. Para mudar a cor de fundo do submenu */
+nav ul ul li a:hover {
+    background-color: #491a9a;
+}

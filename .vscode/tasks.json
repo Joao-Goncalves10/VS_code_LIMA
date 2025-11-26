@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "c:\\Users\\2anoB\\Documents\\SENAI\\Linguagem de Marcação\\VS_code",
+			"problemMatcher": [],
+			"label": "Live Preview: Executar Servidor"
+		}
+	]
+}

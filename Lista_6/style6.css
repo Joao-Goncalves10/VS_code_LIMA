@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: #333;
+    color: rgb(255, 240, 240);
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px splid #ddd
+}
+
+.caixa {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid #bf5050;
+    margin: 15px;
+    display: inline-block;
+}
+
+.menu-principal ul {
+    list-style: none;
+    background-color: #272727;
+}
+
+.menu-principal li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-principal li a {
+    text-align: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1.2rem; /* BOTÕES */
+}
+
+/* Mudar a cor de fundo da interatividade */
+.menu-principal li a:hover {
+    background-color: #b55353;
+}
+
+
+.menu-principal ul ul {
+    position: absolute;
+    display: none;
+}
+
+.menu-principal ul ul li {
+    display: block;
+    width: 160px; /* Largura para o dropdown */
+}
+
+.menu-principal li:hover > ul {
+    display: block;
+}

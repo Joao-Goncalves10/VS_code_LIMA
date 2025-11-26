@@ -1,9 +1,11 @@
 .Central {
   text-align: center;
 }
+
 .Titulo {
   text-align: center;
 }
+
 .Central_bt {
   display: block;
   margin-left: auto;
@@ -11,12 +13,14 @@
   width: 80px;
   padding: 10px;
 }
-.MenuPrincipal{
+
+.MenuPrincipal {
   background-color: #2F3248;
   padding: 10px 20px;
   box-shadow: 0 2px 5px #0000001a;
 }
-.MenuPrincipal ul{
+
+.MenuPrincipal ul {
   display: flex;
   list-style: none;
   padding: 0;
@@ -24,7 +28,8 @@
   align-items: center;
   justify-content: center;
 }
-.MenuPrincipal a{
+
+.MenuPrincipal a {
   text-decoration: none;
   color: white;
   padding: 8px 15px;
@@ -33,12 +38,14 @@
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
-.MenuPrincipal li{
+
+.MenuPrincipal li {
   margin-right: 10px;
   /* padding: 10px 0;
   border-bottom: 1px solid #ccc; */
 }
-#Logo{
+
+#Logo {
   position: var(1px);
 }
 
@@ -54,26 +61,32 @@ fieldset {
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
+
 body {
   background-color: #F2F0ED;
   font-family: Arial, sans-serif;
   font-weight: bold;
+
 }
+
 h1 {
   color: #2F3248;
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
+
 h2 {
   color: #2F3248;
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
+
 h3 {
   color: #2F3248;
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
+
 button {
   background-color: #2F3248;
   border-radius: 10px;
@@ -83,6 +96,7 @@ button {
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
+
 input {
   border-radius: 6px;
   border-style: none;
